@@ -526,3 +526,14 @@
 .footer_credits{
     color: white;
 }
+
+@media (max-width: 768px) {
+  .sec3_boxmain {
+    flex-direction: column;
+  }
+
+  .sec4_boxmain {
+    flex-direction: column;
+    text-align: center;
+  }
+}
